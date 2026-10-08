@@ -73,3 +73,20 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         fontSize = 15.sp,
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
+                    )
+                }
+            }
+        }
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+        ) {
+            Text(
+                text = stringResource(R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 30.dp)
+            )
+        }
+    }
+}
